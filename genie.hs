@@ -12,7 +12,7 @@ getTree n = do
 
 readQAFile :: IO QA
 readQAFile = do
-    x <- tryIOError (getTree "famous.qa")
+    x <- tryIOError (getTree "tree.qa")
     case x of
         Right a -> return a 
         Left  _ -> return defaultTree
@@ -76,4 +76,4 @@ main = do
     hFlush stdout
     tree <- readQAFile
     newTree <- play tree
-    writeFile "famous.qa" (show newTree)
+    writeFile "tree.qa" (show newTree)
