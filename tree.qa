@@ -1,0 +1,1 @@
+Question (Question (Person "Marie Curie") "Is this person a scientist?" (Question (Person "Therese May") "Is this person a politician?" (Person "Queen Elizabeth"))) "Is this person from Europe?" (Question (Person "Marilyn Monroe") "Is this person an actress?" (Question (Person "Donald Trump") "Is this person a republican?" (Person "Hillary Clinton")))
